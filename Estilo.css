@@ -1,0 +1,156 @@
+a{ 
+text-decoration:none; 
+color:#000000; 
+} 
+
+body{
+	/*Fonte: http://felipeessy.blogspot.com/2013/12/curiosidades-sobre-terra-media-parte-2.html*/
+	background:url("Imagens/home.jpg") bottom no-repeat;
+	background-size: cover;
+	font-family: Arial, Verdana, Helvetica;
+}
+
+
+#elemento { margin: 0px 10px 10px 0px; }
+
+#but {
+	display: inline-block;
+	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+	cursor: pointer;
+	background-color: #ccc;
+	color: #444;
+	padding: 5px 10px;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	border: 0px;
+}
+
+
+#Tudo{
+      width:1024px ;
+      height:1024px;
+	  margin: 0 auto;
+	  border-radius: 10px/20px;
+
+}
+
+#Topo {
+      width:1024px ;
+      height:100px;
+	  margin: 0 auto;
+	background-color: black;
+	  border: 1px solid black;
+	  border-radius: 10px/20px;
+}
+
+#Logo {
+	  float: left; 
+      width: 150px;
+      height: 80px;
+	  border: 1px solid black;
+      margin-top: 10px;
+	  margin-left: 10px;
+	  background: url("Imagens/Logo.PNG");
+	  background-size: cover;
+	  border-radius: 10px/20px;	  
+
+}
+
+#Topo_Menu {
+	border-radius: 10px/20px;
+	  float: right;
+      width:785px;  
+      height:40px;
+	  background: white;
+	  border: 1px solid black;
+      margin-top: 50px;
+	  margin-right: 3px;   
+}
+
+
+#Centro {
+	width: 1024px;
+	height: 800px;
+	margin: 10 auto;
+	background: #6CA6CD;
+	border: 1px solid black;
+	border-radius: 10px/20px;
+	/*Fonte: http://lotr.wikia.com/wiki/Minas_Tirith?file=Minas_Tirith.jpg */
+	background:url("Imagens/Minas_Tirith.jpg") bottom no-repeat; 
+	background-size: cover;
+}
+
+#Centro_Menu {
+	float: left;
+	width: 200px;
+	height: 780px;
+	margin: 10 auto;
+	background:#528B8B;
+	border-radius: 10px/20px;
+	border: 1px solid black;
+	margin-top: 8px;
+	margin-left: 7px;
+	/*Fonte: http://felipeessy.blogspot.com/2013/12/curiosidades-sobre-terra-media-parte-2.html*/
+	background:url("Imagens/comitiva.jpg") bottom no-repeat; 
+	background-size: cover;
+}
+
+#Centro_Menu_Componentes {
+	width: 170px;   
+	height: 40px;
+	margin: 10 auto;
+	background: grey;
+	border: 1px solid black;
+
+}
+
+#Centro_Menu_Componentes:hover{
+  background:lightgrey;
+  box-shadow:0 5px 0 ;
+}
+
+#Centro_Menu_Componentes:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+
+}
+
+#Centro_Conteudo {
+	float: right;
+	width: 760px;
+	height: 780px;
+	margin: 10 auto;
+	background: #FFFFFF;
+	border: 1px solid black;
+	margin-top: 8px;
+	border-radius: 10px/20px;
+	margin-right: 7px; 
+	padding-left: 10px;
+	padding-right:10px;
+	}  
+
+#Rodape {
+	width: 1024px;
+	height: 100px;
+	margin: 0 auto;
+	background: #B9D3EE;
+	border-radius: 10px/20px;
+	border: 2px solid black;
+	background-color: black;
+}
+
+.tabelaTopo{
+	border: 0;
+	width: 780px;
+}
+
+.tabelaRodape{
+	background-color: white;
+	border-color: black;
+	border-style: ridge;
+	border-width: 5px;
+	width: 784px;
+}
